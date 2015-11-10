@@ -7,7 +7,7 @@ Laravel5 Mail Dispatcher
         "require": {
             ...
             
-            "morrelinko/laravel5-mail-dispatcher": "dev-master"
+            "stanwarri/mail-dispatcher": "dev-master"
         }
     }
     
@@ -49,7 +49,7 @@ Note: You can type hint `mail()` with Objects you want resolved out of the Conta
     
 #### 2. Just add the `SendsMail` trait to any class you want to dispatch a mail like so:
 
-    use Morrelinko\MailDispatcher\SendsMail;
+    use Stanwarri\MailDispatcher\SendsMail;
     
     class UserAuthController
     {
