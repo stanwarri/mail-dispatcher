@@ -1,0 +1,25 @@
+{
+  "name": "stanwarri/mail-dispatcher",
+  "authors": [
+    {
+      "name": "Stanley Ojadovwa",
+      "email": "stanwafi@gmail.com",
+      "homepage": "http://stanwarri.com"
+    }
+  ],
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "Stanwarri\\MailDispatcher\\": "src/"
+    }
+  },
+  "require": {
+  },
+  "require-dev": {
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Stanwarri\\MailDispatcher\\Tests\\": "tests/"
+    }
+  }
+}
